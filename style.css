@@ -37,6 +37,7 @@ body{
     /* background-color:yellowgreen; */
     background-image: url(justin-lim-tloFnD-7EpI-unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
