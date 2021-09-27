@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;500&display=swap');
+
+
+#txt-input{
+    margin:2rem auto;
+    border:solid;
+    display: block;
+    width:400px;
+    height:200px
+}
+
+#btn-translator{
+    text-align: center;
+    background-color: orange;
+    padding: 1em 5em;
+}
+
+h1{
+    font-size:xx-large;
+}
+#output{
+    margin:2rem auto ;
+    border:solid;
+    width:400px;
+    height:200px;
+    background-color:white;
+}
+
+
+
+body{
+    margin:0;
+    text-align: center;
+     background-size: auto;
+    font-family: 'Allison', cursive;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:yellowgreen; */
+    background-image: url(justin-lim-tloFnD-7EpI-unsplash.jpg);
+    background-size: cover;
+}
+
+
