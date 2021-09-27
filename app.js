@@ -1,8 +1,13 @@
-var btnTranslate= document.querySelector("#btn-translate");
-btnTranslate.addEventListener("click", clickEventHandler);
-var txtInput=document.querySelector("#txt-input");
-txtInput.addEventListener("click",clickEventHandler);    
+var btnTranslate= document.querySelector("#btn-translator");
+var txtInput= document.querySelector("#txt-input");
+var txtOutput=document.querySelector("#output");
+
+
+
 function clickEventHandler(){
-    console.log("Clicked!!");
-    console.log(txtInput);
+ 
+    txtOutput.innerText= "jjsjs "+ txtInput.value;
+
+   
 }
+btnTranslate.addEventListener("click",clickEventHandler);
